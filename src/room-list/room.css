@@ -1,0 +1,39 @@
+.room-summary {
+  cursor: pointer;
+}
+.room-summary:hover {
+  background: #eee;
+}
+.room-summary.active {
+  background: #eee;
+}
+.room-property dt {
+  font-weight: normal;
+  color: #aaa;
+  text-transform: uppercase;
+  text-align: left;
+  display: inline-block;
+  float: left;
+}
+.room-property dd {
+  display: inline-block;
+  float: left;
+  margin-left: 1rem;
+}
+.room-description-title {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+.room-description-table {
+  margin-bottom: 1rem;
+}
+.room-description-table tr td {
+  padding-bottom: 0.5rem
+}
+.room-description-table tr th {
+  font-weight: normal;
+  color: #aaa;
+  text-transform: uppercase;
+  text-align: left;
+  padding-right: 1rem;
+}

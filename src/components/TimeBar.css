@@ -1,0 +1,23 @@
+.time-bar-container {
+  display: flex;
+  width: 100%;
+  margin: 15px auto 10px auto;
+}
+.time-bar {
+  flex: 1;
+  height: 20px;
+  background: red;
+  position: relative;
+}
+.time-bar.available {
+  background: green;
+}
+.time-bar.hour {
+  margin-left: 2px;
+}
+.time-bar-hour {
+  position: absolute;
+  top: -1rem;
+  left: -5px;
+  font-size: 10px;
+}
